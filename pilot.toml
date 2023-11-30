@@ -1,0 +1,13 @@
+[ipv4_listener]
+address = "172.31.255.20"
+port = 8080
+
+[logging]
+level = "debug"
+
+[database]
+username = "postgres"
+password = "password"
+name = "pilot-axum"
+host = "localhost"
+port = 5432
